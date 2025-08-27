@@ -1,0 +1,6 @@
+1. Required tables
+
+   1.Cateogory - CategoryID(PK), CategoryCD(FK), AddedDate,ModifiedDate,AddedUser
+   2.Items     - ItemID(PK),ItemCD(FK), ItemName, Price
+   3.Cart      - CartID(PK),ItemID,Price,Count,OrderedDate,Price
+   

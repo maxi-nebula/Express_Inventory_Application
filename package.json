@@ -1,0 +1,25 @@
+{
+  "name": "express_inventory_application",
+  "version": "1.0.0",
+  "description": "This is an inventory application to pratice CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxi-nebula/Express_Inventory_Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxi-nebula/Express_Inventory_Application/issues"
+  },
+  "homepage": "https://github.com/maxi-nebula/Express_Inventory_Application#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
