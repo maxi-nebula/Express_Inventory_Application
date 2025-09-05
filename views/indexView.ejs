@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Inventory Application</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/scripts/main.js"></script>
+  </head>
+  <body>
+    <h3>Inventory application coming up....</h3>
+    <% const dataArray = Array.isArray(handledData) ? handledData :
+    [handledData];%>
+    <ul>
+      <div class="categoryDivision">
+        <% dataArray.forEach(obj => { %>
+        <div class="categoryList"><%= obj.categoryname %></div>
+        <% }) %>
+      </div>
+    </ul>
+  </body>
+</html>

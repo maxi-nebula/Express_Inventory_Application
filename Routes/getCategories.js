@@ -5,7 +5,8 @@ const { getDataFromDb } = require("./dataHandler");
 
 async function getCategories(req, res) {
   const handledData = await getDataFromDb();
-  res.json(handledData);
+  res.render("indexView", { handledData });
+  return handledData;
 }
 
 categoryRouter.get("/", getCategories);
